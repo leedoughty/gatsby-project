@@ -413,6 +413,26 @@
         "description": "df72ab53-5818-5134-bef5-171b6a0bcccd",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/leedoughty/Desktop/gatsby-project/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "df72ab53-5818-5134-bef5-171b6a0bcccd",
+      "pluginCreatorId": "df72ab53-5818-5134-bef5-171b6a0bcccd",
+      "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6dd95058cc2142d7fb2330ae47151808",
+        "description": "df72ab53-5818-5134-bef5-171b6a0bcccd",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -425,7 +445,8 @@
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/leedoughty/Desktop/gatsby-project/.cache/dev-404-page.js": {
@@ -435,6 +456,10 @@
     "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js"
+    },
+    "/Users/leedoughty/Desktop/gatsby-project/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/about.js"
     }
   },
   "staticQueryComponents": {}
