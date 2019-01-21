@@ -384,33 +384,13 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-17T10:21:43.022Z",
+      "buildTime": "2019-01-21T18:51:13.792Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d8baadbfafa2e57762e986751dacf09f",
+        "contentDigest": "1a0ab756992676a88bd63418c2445dfb",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "df72ab53-5818-5134-bef5-171b6a0bcccd",
-      "pluginCreatorId": "df72ab53-5818-5134-bef5-171b6a0bcccd",
-      "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e8297754b0799a43f9a640ee4f650278",
-        "description": "df72ab53-5818-5134-bef5-171b6a0bcccd",
         "owner": "internal-data-bridge"
       }
     },
@@ -450,6 +430,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "bea9d694851b7bd9ce3517f9bc771cf4",
+        "description": "df72ab53-5818-5134-bef5-171b6a0bcccd",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "df72ab53-5818-5134-bef5-171b6a0bcccd",
+      "pluginCreatorId": "df72ab53-5818-5134-bef5-171b6a0bcccd",
+      "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e8297754b0799a43f9a640ee4f650278",
         "description": "df72ab53-5818-5134-bef5-171b6a0bcccd",
         "owner": "internal-data-bridge"
       }
