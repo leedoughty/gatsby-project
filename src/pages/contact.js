@@ -6,6 +6,6 @@ export default () => (
   <div style={{ color: `blue` }}>
     <Link to="/">Home</Link>
     <Header headerText="Contact" />
-    <p>Contact!</p>
+    <p>leedoughty.com</p>
   </div>
 )
