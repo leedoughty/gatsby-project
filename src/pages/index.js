@@ -13,11 +13,21 @@ const Sidebar = styled.div`
   width: 50px;
 `
 
+const Button = styled.button`
+  width: 60px;
+  margin-top: 50px;
+`
+
+const StyledLink = styled(Link)`
+  list-style-type: none;
+  width: 20px;
+  text-decoration: none;
+  color: black;
+`
+
 export default () => (
   <Container>
     <Header headerText="cool ascii art" />
-    <Link to="/contact/">Contact</Link>
-    <Link to="/about/">About</Link>
     <Sidebar>
       <EmotionButton emotion="happy" />
       <EmotionButton emotion="sad" />
@@ -25,5 +35,11 @@ export default () => (
       <EmotionButton emotion="angry" />
       <EmotionButton emotion="suprised" />
     </Sidebar>
+    <Button>
+      <StyledLink to="/contact/">contact</StyledLink>
+    </Button>
+    <Button>
+      <StyledLink to="/about/">about</StyledLink>
+    </Button>
   </Container>
 )

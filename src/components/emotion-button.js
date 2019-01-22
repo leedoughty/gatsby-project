@@ -1,8 +1,13 @@
 import React from "react"
 import styled from "styled-components"
 
-const Item = styled.button`
+const Button = styled.button`
   list-style-type: none;
+  &:hover {
+    cursor: pointer;
+  }
 `
 
-export default props => <Item><li>{props.emotion}</li></Item>
+
+
+export default props => <Button><li>{props.emotion}</li></Button>
