@@ -6,8 +6,11 @@ import EmotionButton from "../components/emotion-button"
 
 const Container = styled.div`
   display: flex;
-  /* align-items: center; */
-  justify-content: left;
+  flex-direction: column;
+`
+
+const Sidebar = styled.div`
+  width: 50px;
 `
 
 export default () => (
@@ -15,10 +18,12 @@ export default () => (
     <Header headerText="cool ascii art" />
     <Link to="/contact/">Contact</Link>
     <Link to="/about/">About</Link>
-    <EmotionButton emotion="happy" />
-    <EmotionButton emotion="sad" />
-    <EmotionButton emotion="neutral" />
-    <EmotionButton emotion="angry" />
-    <EmotionButton emotion="suprised" />
+    <Sidebar>
+      <EmotionButton emotion="happy" />
+      <EmotionButton emotion="sad" />
+      <EmotionButton emotion="neutral" />
+      <EmotionButton emotion="angry" />
+      <EmotionButton emotion="suprised" />
+    </Sidebar>
   </Container>
 )

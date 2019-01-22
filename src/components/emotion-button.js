@@ -1,3 +1,8 @@
 import React from "react"
+import styled from "styled-components"
 
-export default props => <li>{props.emotion}</li>
+const Item = styled.button`
+  list-style-type: none;
+`
+
+export default props => <Item><li>{props.emotion}</li></Item>
