@@ -20,7 +20,7 @@ const Button = styled.button`
 
 const StyledLink = styled(Link)`
   list-style-type: none;
-  width: 20px;
+  width: 10px;
   text-decoration: none;
   color: black;
 `
@@ -35,9 +35,6 @@ export default () => (
       <EmotionButton emotion="angry" />
       <EmotionButton emotion="suprised" />
     </Sidebar>
-    <Button>
-      <StyledLink to="/contact/">contact</StyledLink>
-    </Button>
     <Button>
       <StyledLink to="/about/">about</StyledLink>
     </Button>
