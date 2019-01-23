@@ -231,11 +231,138 @@
         "owner": "internal-data-bridge"
       }
     },
+    "5d205c4b-3caf-5346-8875-a6706e37d28c": {
+      "resolve": "/Users/leedoughty/Desktop/gatsby-project/node_modules/gatsby-source-filesystem",
+      "id": "5d205c4b-3caf-5346-8875-a6706e37d28c",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "ascii",
+        "path": "/Users/leedoughty/Desktop/gatsby-project/src/ascii"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/leedoughty/Desktop/gatsby-project/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4b7ee55168286b7d5f8167bad049ec8b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/leedoughty/Desktop/gatsby-project",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "d41d8cd98f00b204e9800998ecf8427e",
+      "version": "362d8332d702cb9c82f2c0da6a61086e",
       "pluginOptions": {
         "plugins": []
       },
@@ -250,8 +377,20 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.10.0"
+          },
+          {
             "name": "gatsby",
             "version": "^2.0.76"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.17"
           },
           {
             "name": "react",
@@ -260,6 +399,10 @@
           {
             "name": "react-dom",
             "version": "^16.5.1"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
           }
         ],
         "devDependencies": [],
@@ -270,7 +413,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bf438cf4b0d8ce54a701ce0f28105f95",
+        "contentDigest": "55221e650bcd763ce8bfa8fd60403658",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -379,20 +522,65 @@
       }
     },
     "Site": {
-      "siteMetadata": {},
+      "siteMetadata": {
+        "title": "cool ascii art",
+        "siteUrl": "leedoughty.com"
+      },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-01-21T18:51:13.792Z",
+      "buildTime": "2019-01-23T20:06:53.080Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1a0ab756992676a88bd63418c2445dfb",
+        "contentDigest": "a295e5bda822268f6dee524dbcee6dc9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
+    },
+    "c5273268-e0ff-576a-859c-48e514a9192d": {
+      "id": "c5273268-e0ff-576a-859c-48e514a9192d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7dfd152355158cc5e89303e193b15524",
+        "type": "Directory",
+        "description": "Directory \"src/ascii\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "ascii",
+      "absolutePath": "/Users/leedoughty/Desktop/gatsby-project/src/ascii",
+      "relativePath": "",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2019-01-23T19:47:06.172Z",
+      "accessTime": "2019-01-23T20:06:57.437Z",
+      "changeTime": "2019-01-23T19:48:39.847Z",
+      "birthTime": "2019-01-23T19:47:06.172Z",
+      "root": "/",
+      "dir": "/Users/leedoughty/Desktop/gatsby-project/src",
+      "base": "ascii",
+      "ext": "",
+      "name": "ascii",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895482836,
+      "blocks": 0,
+      "atimeMs": 1548274017436.9758,
+      "mtimeMs": 1548272826172.45,
+      "ctimeMs": 1548272919846.9717,
+      "birthtimeMs": 1548272826172.45,
+      "atime": "2019-01-23T20:06:57.437Z",
+      "mtime": "2019-01-23T19:47:06.172Z",
+      "ctime": "2019-01-23T19:48:39.847Z",
+      "birthtime": "2019-01-23T19:47:06.172Z"
     },
     "SitePage /about/": {
       "jsonName": "about-f34",
@@ -437,31 +625,45 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "93270376411166a14d428cd5cb0d94af"
+    "PLUGINS_HASH": "8ff0db029c4f9412a0713e0b5aaf4138"
   },
   "componentDataDependencies": {
-    "nodes": {},
+    "nodes": {
+      "Site": [
+        "sq--src-pages-index-js"
+      ]
+    },
     "connections": {}
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-pages-index-js": 1146178871
   },
   "components": {
     "/Users/leedoughty/Desktop/gatsby-project/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/leedoughty/Desktop/gatsby-project/.cache/dev-404-page.js"
     },
-    "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js"
-    },
     "/Users/leedoughty/Desktop/gatsby-project/src/pages/about.js": {
       "query": "",
       "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/about.js"
+    },
+    "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js"
     }
   },
-  "staticQueryComponents": {}
+  "staticQueryComponents": {
+    "sq--src-pages-index-js": {
+      "name": "IndexPage",
+      "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js",
+      "id": "sq--src-pages-index-js",
+      "jsonName": "sq--src-pages-index-js",
+      "query": "query IndexPage {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 1146178871
+    }
+  }
 }

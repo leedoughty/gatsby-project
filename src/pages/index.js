@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Header from "../components/header"
 import styled from "styled-components"
 import EmotionButton from "../components/emotion-button"
+import { StaticQuery, graphql } from "gatsby"
 
 const Container = styled.div`
   display: flex;
@@ -25,18 +26,31 @@ const StyledLink = styled(Link)`
   color: black;
 `
 
-export default () => (
-  <Container>
-    <Header headerText="cool ascii art" />
-    <Sidebar>
-      <EmotionButton emotion="happy" />
-      <EmotionButton emotion="sad" />
-      <EmotionButton emotion="neutral" />
-      <EmotionButton emotion="angry" />
-      <EmotionButton emotion="suprised" />
-    </Sidebar>
-    <Button>
-      <StyledLink to="/about/">about</StyledLink>
-    </Button>
-  </Container>
+const IndexPage = () => (
+  <StaticQuery
+    query={graphql`
+      query IndexPage {
+        site {siteMetadata {
+          title
+        }}
+      }
+    `}
+    render={data => (
+      <Container>
+        <Header headerText={data.site.siteMetadata.title} />
+        <Sidebar>
+          <EmotionButton emotion="happy" />
+          <EmotionButton emotion="sad" />
+          <EmotionButton emotion="neutral" />
+          <EmotionButton emotion="angry" />
+          <EmotionButton emotion="suprised" />
+        </Sidebar>
+        <Button>
+          <StyledLink to="/about/">about</StyledLink>
+        </Button>
+      </Container>
+    )}
+  />
 )
+
+export default IndexPage;
