@@ -29,11 +29,30 @@ const StyledLink = styled(Link)`
 const IndexPage = () => (
   <StaticQuery
     query={graphql`
-      query IndexPage {
-        site {siteMetadata {
-          title
-        }}
+      query {
+        allFile
+        (filter: { sourceInstanceName: { eq: "ascii" } }) {
+                edges {
+                  node {
+                		extension
+                    name
+                    absolutePath
+                    fields
+
+                    internal {
+                      contentDigest
+                    }
+
+                  }
+                }
+              }
+                site {
+                siteMetadata {
+                  title
+                }
+              }
       }
+
     `}
     render={data => (
       <Container>
@@ -48,6 +67,7 @@ const IndexPage = () => (
         <Button>
           <StyledLink to="/about/">about</StyledLink>
         </Button>
+              <p>{data.allFile.edges.map((edge , index) => <span key={index}>{edge.node.name}</span>)}</p>
       </Container>
     )}
   />

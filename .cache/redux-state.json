@@ -362,7 +362,7 @@
       "resolve": "/Users/leedoughty/Desktop/gatsby-project",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "362d8332d702cb9c82f2c0da6a61086e",
+      "version": "abb2744c7a11c0d78c2f0a24b7592900",
       "pluginOptions": {
         "plugins": []
       },
@@ -413,7 +413,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "55221e650bcd763ce8bfa8fd60403658",
+        "contentDigest": "4390ab5e7d1596d794bb6cb096821470",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -528,12 +528,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-01-23T20:06:53.080Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-23T20:33:13.016Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a295e5bda822268f6dee524dbcee6dc9",
+        "contentDigest": "8d0bf524ac20c24127db29e40b780f2c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -543,7 +545,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "7dfd152355158cc5e89303e193b15524",
+        "contentDigest": "71c9bd9613a5a324b1f22747176fb1eb",
         "type": "Directory",
         "description": "Directory \"src/ascii\"",
         "owner": "gatsby-source-filesystem"
@@ -552,11 +554,11 @@
       "absolutePath": "/Users/leedoughty/Desktop/gatsby-project/src/ascii",
       "relativePath": "",
       "extension": "",
-      "size": 64,
-      "prettySize": "64 B",
-      "modifiedTime": "2019-01-23T19:47:06.172Z",
-      "accessTime": "2019-01-23T20:06:57.437Z",
-      "changeTime": "2019-01-23T19:48:39.847Z",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-01-23T20:15:17.109Z",
+      "accessTime": "2019-01-23T20:33:17.608Z",
+      "changeTime": "2019-01-23T20:15:17.109Z",
       "birthTime": "2019-01-23T19:47:06.172Z",
       "root": "/",
       "dir": "/Users/leedoughty/Desktop/gatsby-project/src",
@@ -566,21 +568,66 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 2,
+      "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 12895482836,
       "blocks": 0,
-      "atimeMs": 1548274017436.9758,
-      "mtimeMs": 1548272826172.45,
-      "ctimeMs": 1548272919846.9717,
+      "atimeMs": 1548275597607.615,
+      "mtimeMs": 1548274517108.9639,
+      "ctimeMs": 1548274517108.9639,
       "birthtimeMs": 1548272826172.45,
-      "atime": "2019-01-23T20:06:57.437Z",
-      "mtime": "2019-01-23T19:47:06.172Z",
-      "ctime": "2019-01-23T19:48:39.847Z",
+      "atime": "2019-01-23T20:33:17.608Z",
+      "mtime": "2019-01-23T20:15:17.109Z",
+      "ctime": "2019-01-23T20:15:17.109Z",
       "birthtime": "2019-01-23T19:47:06.172Z"
+    },
+    "1a045288-c7a1-5b62-a6a0-7557bc2c1f35": {
+      "id": "1a045288-c7a1-5b62-a6a0-7557bc2c1f35",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ddf7be9d4557f06c1349312a0d2aa7ff",
+        "type": "File",
+        "mediaType": "text/plain",
+        "description": "File \"src/ascii/happy0.txt\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "ascii",
+      "absolutePath": "/Users/leedoughty/Desktop/gatsby-project/src/ascii/happy0.txt",
+      "relativePath": "happy0.txt",
+      "extension": "txt",
+      "size": 242,
+      "prettySize": "242 B",
+      "modifiedTime": "2019-01-24T11:51:03.531Z",
+      "accessTime": "2019-01-24T11:51:03.802Z",
+      "changeTime": "2019-01-24T11:51:03.531Z",
+      "birthTime": "2019-01-23T20:15:17.109Z",
+      "root": "/",
+      "dir": "/Users/leedoughty/Desktop/gatsby-project/src/ascii",
+      "base": "happy0.txt",
+      "ext": ".txt",
+      "name": "happy0",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895484037,
+      "blocks": 8,
+      "atimeMs": 1548330663801.9932,
+      "mtimeMs": 1548330663531.2239,
+      "ctimeMs": 1548330663531.2239,
+      "birthtimeMs": 1548274517108.9463,
+      "atime": "2019-01-24T11:51:03.802Z",
+      "mtime": "2019-01-24T11:51:03.531Z",
+      "ctime": "2019-01-24T11:51:03.531Z",
+      "birthtime": "2019-01-23T20:15:17.109Z"
     },
     "SitePage /about/": {
       "jsonName": "about-f34",
@@ -621,26 +668,75 @@
         "description": "df72ab53-5818-5134-bef5-171b6a0bcccd",
         "owner": "internal-data-bridge"
       }
+    },
+    "13097858-7271-5742-9d13-849a23405519": {
+      "id": "13097858-7271-5742-9d13-849a23405519",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "27d8c803e1349775e0d7527fcaee4343",
+        "type": "File",
+        "mediaType": "text/plain",
+        "description": "File \"src/ascii/happy1.txt\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "ascii",
+      "absolutePath": "/Users/leedoughty/Desktop/gatsby-project/src/ascii/happy1.txt",
+      "relativePath": "happy1.txt",
+      "extension": "txt",
+      "size": 255,
+      "prettySize": "255 B",
+      "modifiedTime": "2019-01-23T20:40:54.724Z",
+      "accessTime": "2019-01-23T20:40:54.724Z",
+      "changeTime": "2019-01-23T20:40:54.724Z",
+      "birthTime": "2019-01-23T20:40:47.406Z",
+      "root": "/",
+      "dir": "/Users/leedoughty/Desktop/gatsby-project/src/ascii",
+      "base": "happy1.txt",
+      "ext": ".txt",
+      "name": "happy1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12895486343,
+      "blocks": 8,
+      "atimeMs": 1548276054724.2048,
+      "mtimeMs": 1548276054724.4092,
+      "ctimeMs": 1548276054724.4092,
+      "birthtimeMs": 1548276047405.7693,
+      "atime": "2019-01-23T20:40:54.724Z",
+      "mtime": "2019-01-23T20:40:54.724Z",
+      "ctime": "2019-01-23T20:40:54.724Z",
+      "birthtime": "2019-01-23T20:40:47.406Z"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8ff0db029c4f9412a0713e0b5aaf4138"
+    "PLUGINS_HASH": "3d47c562a508bef87c2fbd23658f0b41"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-pages-index-js"
+        "/"
       ]
     },
-    "connections": {}
+    "connections": {
+      "File": [
+        null
+      ]
+    }
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-pages-index-js": 1146178871
+    "sq--src-pages-index-js": 763754570
   },
   "components": {
     "/Users/leedoughty/Desktop/gatsby-project/.cache/dev-404-page.js": {
@@ -656,14 +752,5 @@
       "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js"
     }
   },
-  "staticQueryComponents": {
-    "sq--src-pages-index-js": {
-      "name": "IndexPage",
-      "componentPath": "/Users/leedoughty/Desktop/gatsby-project/src/pages/index.js",
-      "id": "sq--src-pages-index-js",
-      "jsonName": "sq--src-pages-index-js",
-      "query": "query IndexPage {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 1146178871
-    }
-  }
+  "staticQueryComponents": {}
 }
