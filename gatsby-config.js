@@ -10,6 +10,9 @@ module.exports = {
         name: `ascii`,
         path: `${__dirname}/src/ascii`,
       }
+    },
+    {
+      resolve: "gatsby-transformer-remark"
     }
   ]
 }

@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.0.76",
+    "gatsby": "^2.0.95",
     "gatsby-plugin-styled-components": "^3.0.4",
     "gatsby-source-filesystem": "^2.0.17",
     "gatsby-transformer-remark": "^2.2.0",

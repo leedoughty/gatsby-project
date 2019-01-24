@@ -36,9 +36,6 @@ const IndexPage = () => (
                   node {
                 		extension
                     name
-                    absolutePath
-                    fields
-
                     internal {
                       contentDigest
                     }
