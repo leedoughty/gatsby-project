@@ -744,7 +744,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "4e13695367f64bba60b30c331e653e0d",
+        "contentDigest": "dd1a41d35976bd4ecc4c6754a743705e",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/ascii/happy.md\"",
@@ -754,11 +754,11 @@
       "absolutePath": "/Users/leedoughty/Desktop/gatsby-project/src/ascii/happy.md",
       "relativePath": "happy.md",
       "extension": "md",
-      "size": 56,
-      "prettySize": "56 B",
-      "modifiedTime": "2019-01-24T15:07:13.190Z",
-      "accessTime": "2019-01-24T15:30:06.520Z",
-      "changeTime": "2019-01-24T15:07:13.190Z",
+      "size": 304,
+      "prettySize": "304 B",
+      "modifiedTime": "2019-01-24T15:47:05.053Z",
+      "accessTime": "2019-01-24T15:47:05.057Z",
+      "changeTime": "2019-01-24T15:47:05.053Z",
       "birthTime": "2019-01-24T14:38:06.614Z",
       "root": "/",
       "dir": "/Users/leedoughty/Desktop/gatsby-project/src/ascii",
@@ -775,13 +775,13 @@
       "blksize": 4096,
       "ino": 12895528284,
       "blocks": 8,
-      "atimeMs": 1548343806519.6306,
-      "mtimeMs": 1548342433189.996,
-      "ctimeMs": 1548342433189.996,
+      "atimeMs": 1548344825056.609,
+      "mtimeMs": 1548344825053.0361,
+      "ctimeMs": 1548344825053.0361,
       "birthtimeMs": 1548340686613.7107,
-      "atime": "2019-01-24T15:30:06.520Z",
-      "mtime": "2019-01-24T15:07:13.190Z",
-      "ctime": "2019-01-24T15:07:13.190Z",
+      "atime": "2019-01-24T15:47:05.057Z",
+      "mtime": "2019-01-24T15:47:05.053Z",
+      "ctime": "2019-01-24T15:47:05.053Z",
       "birthtime": "2019-01-24T14:38:06.614Z"
     },
     "1a045288-c7a1-5b62-a6a0-7557bc2c1f35": {
@@ -874,24 +874,6 @@
       "ctime": "2019-01-23T20:40:54.724Z",
       "birthtime": "2019-01-23T20:40:47.406Z"
     },
-    "b6fb2b0f-8139-5d86-b53f-6c638b255185": {
-      "id": "b6fb2b0f-8139-5d86-b53f-6c638b255185",
-      "children": [],
-      "parent": "1d8dd2c5-74c2-597a-b05c-b940c8061488",
-      "internal": {
-        "content": "# hello!\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "cd08ce21ef2761a07f9cd15912529595",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Test Post",
-        "path": "/first-post"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "# hello!\n",
-      "fileAbsolutePath": "/Users/leedoughty/Desktop/gatsby-project/src/ascii/happy.md"
-    },
     "SitePage /first-post": {
       "jsonName": "first-post-eb4",
       "internalComponentName": "ComponentFirstPost",
@@ -951,6 +933,24 @@
         "description": "df72ab53-5818-5134-bef5-171b6a0bcccd",
         "owner": "internal-data-bridge"
       }
+    },
+    "b6fb2b0f-8139-5d86-b53f-6c638b255185": {
+      "id": "b6fb2b0f-8139-5d86-b53f-6c638b255185",
+      "children": [],
+      "parent": "1d8dd2c5-74c2-597a-b05c-b940c8061488",
+      "internal": {
+        "content": "# ☆┌─┐ ─┐☆\n# 　│▒│ /▒/\n# 　│▒│/▒/\n# 　│▒ /▒/─┬─┐◯\n# 　│▒│▒|▒│▒│\n# ┌┴─┴─┐-┘─┘\n# │▒┌──┘▒▒▒│◯\n# └┐▒▒▒▒▒▒┌┘\n# ◯└┐▒▒▒▒┌\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "feddee759af5639fd71c1fbfe4599f66",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Test Post",
+        "path": "/first-post"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "# ☆┌─┐ ─┐☆\n# 　│▒│ /▒/\n# 　│▒│/▒/\n# 　│▒ /▒/─┬─┐◯\n# 　│▒│▒|▒│▒│\n# ┌┴─┴─┐-┘─┘\n# │▒┌──┘▒▒▒│◯\n# └┐▒▒▒▒▒▒┌┘\n# ◯└┐▒▒▒▒┌\n",
+      "fileAbsolutePath": "/Users/leedoughty/Desktop/gatsby-project/src/ascii/happy.md"
     }
   },
   "status": {
@@ -981,7 +981,7 @@
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-pages-index-js": 805277507,
-    "first-post-eb4": "95/path---first-post-eb-4-4f5-PW7a4mpPISqwgdenshYM5dpW7is"
+    "first-post-eb4": "399/path---first-post-eb-4-4f5-1a1Vm1qLmM6RzOBqFcrIXbCXMrQ"
   },
   "components": {
     "/Users/leedoughty/Desktop/gatsby-project/src/templates/post.js": {
